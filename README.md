@@ -113,7 +113,7 @@ SimpleMusicPlayer/
 ### Untuk Pengguna (via APK)
 
 1. Buka halaman [**Releases**](https://github.com/Ikyletwar/SimpleMusicPlayer/releases)
-2. Download file `SimpleMusicPlayer-v1.0.apk`
+2. Download file `app.apk`
 3. Izinkan **"Install from unknown sources"** jika diminta
 4. Buka aplikasi → tekan **PILIH LAGU** → pilih file audio dari HP
 
