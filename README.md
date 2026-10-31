@@ -137,39 +137,40 @@ adb install app/build/outputs/apk/debug/app-debug.apk
 
 ---
 
-📱 Spesifikasi Teknis
+## 📱 Spesifikasi Teknis
 
-Kategori Detail
-Bahasa Java 7 (tanpa lambda, tanpa stream API)
-Min SDK 16 (Android 4.1)
-Target SDK 26 (Android 8.0)
-Compile SDK 30 (Android 11)
-Build Tools AGP 7.0.2 · Gradle 7.x
-Library AndroidX AppCompat, Material Components
-Ukuran APK ~2 MB
-Dependensi Jaringan ❌ Tidak ada (100% offline)
+| Kategori | Detail |
+|---|---|
+| Bahasa | Java 7 (tanpa lambda, tanpa stream API) |
+| Min SDK | 16 (Android 4.1) |
+| Target SDK | 26 (Android 8.0) |
+| Compile SDK | 30 (Android 11) |
+| Build Tools | AGP 7.0.2 · Gradle 7.x |
+| Library | AndroidX AppCompat, Material Components |
+| Ukuran APK | ~2 MB |
+| Dependensi Jaringan | ❌ Tidak ada (100% offline) |
 
 ---
 
-🔐 Privasi
+## 🔐 Privasi
 
 Kami percaya bahwa aplikasi musik tidak perlu mengakses internet untuk memutar file lokal. Karena itu:
 
-· ✅ Tidak ada analytics / tracking
-· ✅ Tidak ada iklan
-· ✅ Tidak ada permission internet
-· ✅ Tidak ada pengumpulan data pengguna
-· ✅ Semua pemutaran terjadi 100% di perangkat
+- ✅ Tidak ada analytics / tracking
+- ✅ Tidak ada iklan
+- ✅ Tidak ada permission internet
+- ✅ Tidak ada pengumpulan data pengguna
+- ✅ Semua pemutaran terjadi 100% di perangkat
 
 ---
 
-🤝 Kontribusi
+## 🤝 Kontribusi
 
 Kontribusi sangat diterima! Baik berupa:
 
-· 🐛 Laporan bug → buka Issues
-· 💡 Saran fitur → buka Discussions
-· 🔧 Pull request → fork repo, buat branch baru, ajukan PR
+- 🐛 Laporan bug → buka Issues
+- 💡 Saran fitur → buka Discussions
+- 🔧 Pull request → fork repo, buat branch baru, ajukan PR
 
 Panduan singkat:
 
@@ -186,7 +187,7 @@ git push origin fitur-baru
 
 ---
 
-📄 Lisensi
+## 📄 Lisensi
 
 Proyek ini dilisensikan di bawah MIT License — bebas digunakan, dimodifikasi, dan didistribusikan, dengan tetap mencantumkan kredit kepada pembuat asli.
 
@@ -194,15 +195,15 @@ Lihat file LICENSE untuk detail lengkap.
 
 ---
 
-👤 Author
+## 👤 Author
 
 <div align="center">
 
-Hizkia Letwar
+**Hizkia Letwar**
 
 Siswa TJKT 1 — SMK Negeri 1 Maluku Tengah
 
-https://img.shields.io/badge/GitHub-Ikyletwar-181717?style=for-the-badge&logo=github
+[![GitHub](https://img.shields.io/badge/GitHub-Ikyletwar-181717?style=for-the-badge&logo=github)](https://github.com/Ikyletwar)
 
 "Alasan diciptakan: gabut. Alasan dilanjutkan: karena seru."
 
@@ -210,12 +211,12 @@ https://img.shields.io/badge/GitHub-Ikyletwar-181717?style=for-the-badge&logo=gi
 
 ---
 
-🙏 Ucapan Terima Kasih
+## 🙏 Ucapan Terima Kasih
 
-· Google — untuk Android SDK yang luar biasa
-· JetBrains — untuk IntelliJ IDEA & AIDE
-· Komunitas GitHub — untuk inspirasi & referensi
-· Kamu — yang sudah mau mencoba dan membaca sampai sini 💚
+- Google — untuk Android SDK yang luar biasa
+- JetBrains — untuk IntelliJ IDEA & AIDE
+- Komunitas GitHub — untuk inspirasi & referensi
+- Kamu — yang sudah mau mencoba dan membaca sampai sini 💚 (AI yg tulis bkn krn gw gay klo yg baca cwo)
 
 ---
 
