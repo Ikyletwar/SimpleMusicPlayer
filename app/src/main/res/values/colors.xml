@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#10B981</color> <!-- Emerald 500 -->
+    <color name="colorPrimaryDark">#047857</color>
+    <color name="colorAccent">#10B981</color>
+    
+    <!-- Light Theme Colors -->
+    <color name="bgMain">#F8FAFC</color>
+    <color name="bgCard">#FFFFFF</color>
+    <color name="textMain">#0F172A</color>
+    <color name="textMuted">#64748B</color>
+    <color name="divider">#E2E8F0</color>
+
+    <!-- Dark Theme Colors -->
+    <color name="bgMainDark">#0F172A</color>
+    <color name="bgCardDark">#1E293B</color>
+    <color name="textMainDark">#F8FAFC</color>
+    <color name="textMutedDark">#94A3B8</color>
+    <color name="dividerDark">#334155</color>
+
+    <!-- Notification -->
+    <color name="notifBg">#1E293B</color>
+</resources>

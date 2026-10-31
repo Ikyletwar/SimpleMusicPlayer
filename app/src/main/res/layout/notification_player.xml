@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="#1E293B">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_vertical">
+        
+        <TextView
+            android:id="@+id/notifTitle"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Music Player"
+            android:textColor="#FFFFFF"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:maxLines="1"
+            android:ellipsize="end"/>
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/notifArtist"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Siap memutar"
+        android:textColor="#94A3B8"
+        android:textSize="12sp"
+        android:layout_marginTop="2dp"
+        android:maxLines="1"
+        android:ellipsize="end"/>
+
+    <ProgressBar
+        android:id="@+id/notifProgress"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:progressTint="#10B981"
+        android:progressBackgroundTint="#334155"
+        android:max="100"
+        android:progress="0"/>
+
+    <!-- Gunakan ImageView, bukan Button -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_marginTop="12dp">
+
+        <ImageView
+            android:id="@+id/btnSeekBack"
+            android:layout_width="0dp"
+            android:layout_height="32dp"
+            android:layout_weight="1"
+            android:src="@android:drawable/ic_media_rew"
+            android:tint="#10B981"
+            android:padding="4dp"/>
+
+        <ImageView
+            android:id="@+id/btnNotifPlay"
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:layout_weight="1"
+            android:src="@android:drawable/ic_media_play"
+            android:tint="#FFFFFF"
+            android:padding="4dp"/>
+
+        <ImageView
+            android:id="@+id/btnSeekFwd"
+            android:layout_width="0dp"
+            android:layout_height="32dp"
+            android:layout_weight="1"
+            android:src="@android:drawable/ic_media_ff"
+            android:tint="#10B981"
+            android:padding="4dp"/>
+
+        <ImageView
+            android:id="@+id/btnNotifNext"
+            android:layout_width="0dp"
+            android:layout_height="32dp"
+            android:layout_weight="1"
+            android:src="@android:drawable/ic_media_next"
+            android:tint="#10B981"
+            android:padding="4dp"/>
+    </LinearLayout>
+</LinearLayout>
