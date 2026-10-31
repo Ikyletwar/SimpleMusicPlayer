@@ -77,7 +77,7 @@ Fokus utama proyek ini adalah memberikan pengalaman mendengarkan musik yang **be
 
 ## 🏗️ Arsitektur
 
-\`\`\`
+```
 SimpleMusicPlayer/
 │
 ├── app/
@@ -95,16 +95,16 @@ SimpleMusicPlayer/
 │       └── AndroidManifest.xml           # Deklarasi permission & komponen
 │
 └── build.gradle                          # Konfigurasi build
-\`\`\`
+```
 
 ### 🔩 Komponen Inti
 
 | Komponen | Peran |
 |---|---|
-| \`MainActivity\` | Menampilkan UI, menangkap aksi user (play/pause/seek/pick) |
-| \`MusicService\` | Menjalankan \`MediaPlayer\` di background, mengelola notifikasi |
-| \`NotificationReceiver\` | Menerima broadcast dari tombol notifikasi |
-| \`GlobalApplication\` | Menangkap crash, logging ke file, menampilkan \`CrashActivity\` |
+| `MainActivity` | Menampilkan UI, menangkap aksi user (play/pause/seek/pick) |
+| `MusicService` | Menjalankan `MediaPlayer` di background, mengelola notifikasi |
+| `NotificationReceiver` | Menerima broadcast dari tombol notifikasi |
+| `GlobalApplication` | Menangkap crash, logging ke file, menampilkan `CrashActivity` |
 
 ---
 
@@ -113,13 +113,13 @@ SimpleMusicPlayer/
 ### Untuk Pengguna (via APK)
 
 1. Buka halaman [**Releases**](https://github.com/Ikyletwar/SimpleMusicPlayer/releases)
-2. Download file \`SimpleMusicPlayer-v1.0.apk\`
+2. Download file `SimpleMusicPlayer-v1.0.apk`
 3. Izinkan **"Install from unknown sources"** jika diminta
 4. Buka aplikasi → tekan **PILIH LAGU** → pilih file audio dari HP
 
 ### Untuk Developer (via Source Code)
 
-\`\`\`bash
+```bash
 # 1. Clone repository
 git clone https://github.com/Ikyletwar/SimpleMusicPlayer.git
 cd SimpleMusicPlayer
@@ -133,7 +133,7 @@ cd SimpleMusicPlayer
 
 # 4. Install ke device
 adb install app/build/outputs/apk/debug/app-debug.apk
-\`\`\`
+```
 
 ---
 
@@ -173,7 +173,7 @@ Kontribusi sangat diterima! Baik berupa:
 
 Panduan singkat:
 
-\`\`\`bash
+```bash
 # Fork repo, lalu:
 git clone https://github.com/USERNAME/SimpleMusicPlayer.git
 cd SimpleMusicPlayer
@@ -182,7 +182,7 @@ git checkout -b fitur-baru
 git commit -m "Add: fitur baru"
 git push origin fitur-baru
 # Buka Pull Request di GitHub
-\`\`\`
+```
 
 ---
 
